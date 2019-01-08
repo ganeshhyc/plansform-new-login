@@ -9,6 +9,18 @@
 .navbar {
     margin-bottom: 0px;
     background-color: #FFFFFF;
+    height: 45px !important;
+    -webkit-box-shadow: 0 4px 6px -6px #999;
+    -moz-box-shadow: 0 4px 6px -6px #999;
+    box-shadow: 0 4px 6px -6px #999;
+
+}
+.navbar-pf {
+    float: left;
+    height: 45px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 .w-150-p {
     width:100px;
@@ -56,8 +68,13 @@
     font-weight: 800;
 }
 .heading{
-    padding-top: 120px;
+    padding-top: 54px;
     max-width: 420px;
+}
+.lh-26 {
+    font-style: normal;
+    line-height: normal;
+    line-height: 26px;
 }
 .primary-color {
     color: #D63E6D !important;
@@ -66,14 +83,14 @@
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 4px;
-    height:40px;
-    width:350px;
+    height:60px;
+    width:383px;
     padding: 20px;
     font-weight: normal;
 }
 .p-button {
-    height:35px;
-    width:200px;
+    height:44px;
+    width:220px;
     background: #D63E6D;
     border-radius: 4px;
     font-weight: bold;
