@@ -1,0 +1,140 @@
+.open-sans {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #4A4A4A;
+}
+.raleway {
+    font-family: "Raleway", sans-serif !important;
+    color: #4A4A4A;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+}
+.w-150-p {
+    width:100px;
+}
+.bg-e5 {
+    background-color:#e5e5e5;
+}
+.bg-fb {
+    background-color:#FBFBFB;
+}
+.bg-de {
+    background-color:#dedede;
+}
+.pd-0 {
+    padding:0px;
+}
+.mg-auto {
+    margin: auto;
+}
+.container-fluid {
+    width:100%;
+}
+.row.top-row {
+    margin-right: 0px;
+}
+.h-font {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 51px;
+    font-size: 36px;
+}
+.point-font{
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    line-height: 26px;
+}
+.f-40 {
+    font-size: 40px;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-weight-800{
+    font-weight: 800;
+}
+.heading{
+    padding-top: 120px;
+    max-width: 420px;
+}
+.primary-color {
+    color: #D63E6D !important;
+}
+.email-input {
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height:40px;
+    width:350px;
+    padding: 20px;
+    font-weight: normal;
+}
+.p-button {
+    height:35px;
+    width:200px;
+    background: #D63E6D;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.pd-top-25 {
+    padding-top: 25px;
+}
+.pd-top-50 {
+    padding-top: 50px;
+}
+.pd-bottom-25 {
+    padding-bottom: 25px;
+}
+.pd-bottom-50 {
+    padding-bottom: 50px;
+}
+.pd-bottom-70 {
+    padding-bottom: 70px;
+}
+.p-margin-bottom-20 {
+    margin: 0 0 20px;
+}
+@media screen and (max-width:500px){
+    .p-margin-bottom-20 {
+        margin: 0 0 10px !important;
+    }
+    .section {
+        height:100%;
+    }
+    .h-130 {
+        height: 130px;
+    }
+    .heading{
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+    .email-input {
+        width:100%;
+    }
+    .point-font{
+        text-align: left;
+    }
+    .sm-f-14 {
+        font-size: 14px !important;
+    }
+    .sm-top-20 {
+        padding-top: 20px !important;
+    }
+    .sm-bottom-20 {
+        padding-bottom: 20px !important;
+    }
+    .sm-float-none {
+        float: none !important;
+    }
+    .container.footer {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .sm-text-justify {
+        text-align: justify;
+    }
+}
