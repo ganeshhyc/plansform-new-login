@@ -22,8 +22,28 @@
     font-size: 18px;
     line-height: 20px;
 }
-.w-150-p {
-    width:100px;
+a.link {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 16px;
+    color:#7B5E8D !important;
+}
+a.link:hover {
+    color:#D63E6D !important;
+    text-decoration: none !important;
+}
+a.footer-link {
+    font-style: normal;
+    font-weight: 600;
+    color:#4A4A4A !important;
+}
+a.footer-link:hover {
+    color:#000 !important;
+    text-decoration: none !important;
+}
+.w-170-p {
+    width:170px;
 }
 .bg-e5 {
     background-color:#e5e5e5;
@@ -61,6 +81,9 @@
 .f-40 {
     font-size: 40px;
 }
+.f-24 {
+    font-size: 24px;
+}
 .f-16 {
     font-size: 16px;
 }
@@ -96,6 +119,9 @@
     font-weight: bold;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+.p-button:hover {
+    color: #FBFBFB;
 }
 .pd-top-25 {
     padding-top: 25px;
